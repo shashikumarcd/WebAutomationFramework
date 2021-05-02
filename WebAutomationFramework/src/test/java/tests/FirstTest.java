@@ -10,6 +10,11 @@ public class FirstTest {
 	
 	@Test(priority=2)
 	public void Test1() {
-		System.out.println("First test");
+		System.out.println("Second test");
+	}
+	
+	@Test(priority=3)
+	public void Test2() {
+		System.out.println("3rd test");
 	}
 }
