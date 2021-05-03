@@ -17,4 +17,9 @@ public class FirstTest {
 	public void Test2() {
 		System.out.println("3rd test");
 	}
+	
+	@Test(priority=4)
+	public void Test3() {
+		System.out.println("4th test");
+	}
 }
